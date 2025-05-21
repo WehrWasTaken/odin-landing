@@ -1,0 +1,240 @@
+body {
+   font-family: 'Roboto', sans-serif; 
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   
+}
+
+
+/* Header Section */
+
+.dark-bg {
+    width: 100%;
+    background: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 730px;
+    
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header ul a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+/* End of Header Section */
+
+/* First Content Div Section */
+
+.first {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 100px 0 ;
+    
+
+}
+
+.first .left-side {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.first h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0 0 15px;
+}
+
+.first p, button {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 6px;
+    padding: 0px;
+
+}
+
+.first .left-side button {
+    border-radius: 7px;
+    background-color: #3882F6;
+    border: none;
+    width: 125px;
+    padding: 10px 0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.first .right-side img {
+    width: 600px;
+    height: 300px;
+    object-fit: none;
+    object-position: 100% 50%;
+    border-radius: 5px;
+}
+
+/* End of Content Div Section */
+
+
+/* Card Div Section */
+
+.white-bg {
+    width: 100%;
+    background: #F9FAF8;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    gap: 30px;
+
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+    color: #85878a;
+
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: none;
+    object-position: 80% 30%;
+}
+
+.second h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+
+/* End of Card Div Section */
+
+/* Quote Div Section */
+
+.gray-bg {
+    width: 100%;
+    background: #E5E7EB;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 820px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 900px;
+    margin: 100px 0 0 0 ;
+    padding: 0;
+    
+}
+
+.author p { 
+    width: 900px;
+    font-weight: 600;
+    font-size: 22px;  
+    margin: 10px 0 100px 1200px;
+    color: #1F2937;
+   
+}
+
+/* End of Quote Div Section */
+
+/* Call to Action Div Section */
+
+.forth {
+    margin: auto;
+    width: 50%;
+}
+
+.bottom-banner {
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    height: 150px;
+    min-width: 820px;
+    
+}
+
+.bottom-banner .title, p {
+    color: #F9FAF8;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-banner .title {
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+}
+
+.bottom-banner button {
+    background: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 5px;
+    width: 140px;
+    border-style: solid;
+}
+
+/* End of Action Div Section */
+
+/* Start of Footer */
+
+.footer {
+    background: #1F2937;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+/* End of Footer */
